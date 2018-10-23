@@ -17,7 +17,7 @@ if (process.env.NODE_ENV === "production") {
 app.use(routes);
 
 // Connect to Mongo DB
-mongoose.connect(process.env.MONGOLAB_ROSE_URI || "mongodb://localhost:27017/nytreact");
+mongoose.connect(process.env.MONGOLAB_GREEN_URI || "mongodb://localhost:27017/nytreact");
 var db = mongoose.connection;
 
 // Show any mongoose errors
