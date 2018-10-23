@@ -11,7 +11,7 @@ The front-end React app will auto-reload as it's updated via webpack dev server,
 Start by installing front and backend dependencies. While in this directory, run the following command:
 
 ```
-yarn install
+yarn install 
 ```
 
 This should install node modules within the server and the client folder.
