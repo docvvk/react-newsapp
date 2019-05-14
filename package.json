@@ -1,7 +1,7 @@
 {
-  "name": "mern",
+  "name": "react-newsapp",
   "version": "1.0.0",
-  "description": "Mern Demo",
+  "description": "React NYTimes API App",
   "main": "server.js",
   "scripts": {
     "server": "node server.js",

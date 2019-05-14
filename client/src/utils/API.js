@@ -1,6 +1,6 @@
 import axios from "axios";
-var nytAPIKEY = "abfda96b313848ad975837fbc8f1e9f6";
-var nytURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json";
+const nytAPIKEY = process.env.REACT_APP_API_KEY;
+const nytURL = process.env.REACT_APP_API_URL;
 
 export default {
   getNYTArticles: function(topic,from,to){
