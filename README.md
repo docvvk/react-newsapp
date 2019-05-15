@@ -1,4 +1,7 @@
-# Create React Express App
+# React News Scrapping Web App
+
+## About this App
+A single page React-based application that searches for articles from the New York Times API. Searched articles can be saved as well as deleted. The app uses Node/Express for the server and routing, and mongoDB to save and retrieve articles from the database.
 
 ## About This Boilerplate
 
